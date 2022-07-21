@@ -1,0 +1,133 @@
+*{
+    padding: 00px;
+    margin: 00px;
+    box-sizing: border-box;
+  
+   
+}
+body{
+    background:linear-gradient(to right,  #141b98, #87c3f1 );
+
+}
+.contener{
+    width: 1300px;
+    height: 581px;
+    background-color: #fff;
+    display: flex;
+    margin: 29px auto;
+    border-radius: 10px;
+    
+}
+.gauche{
+    width: 500px;
+    background: rgb(34, 9, 108);
+    /* border-radius: 10px; */
+    border-top-left-radius:10px ;
+    border-bottom-left-radius: 10px;
+}
+h2{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: black; 
+    padding-top: 30px; 
+    padding-bottom: 30px;
+}
+.gauche_un span{
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 10px;
+    color: black;
+   
+}
+.gauche_un{
+    border-bottom:2px solid white;
+    margin-top: 40px;
+    
+}
+h4{
+   color: white;
+
+}
+
+input{
+    width: 275px;
+    height: 35px;
+    /* outline: none; permet d'enlever les traie de l'input */
+    outline: none;
+    padding-left: 20px;
+}
+fieldset input{
+    border: none;
+}
+.droite {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 650px;
+    background-color: #fff;
+    position: relative;
+}
+
+/* .cinq {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 350px;
+} */
+.texte p{
+  padding-left: 150px;
+}
+span{
+    padding-left: 50px;  
+}
+img{
+    width: 44px;
+    height: 44px;
+    margin-left: 559px;;
+}
+.legende{
+    margin-left: 20px;
+}
+fieldset{
+    border-radius: 5px;
+}
+ table{
+    border-radius: 5px;
+
+}
+.bc{
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.gauche .gauche_un span{
+    background-color: #fff ;
+     color: black;
+
+}
+
+.form .un table{
+    border:1px
+}
+.deux fieldset{
+    width: 610px;
+}
+.trois .bc{
+    width: 100px;
+}
+
+#bss{
+    padding-left:30px ;
+    
+}
+.cinq .bc{
+    width: 610px;
+}
+#last{
+    padding-left: 50px;
+}
+
+
+
+
